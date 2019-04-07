@@ -1,0 +1,424 @@
+@font-face {
+  font-family: 'Brandon';
+  src: url('./Brandon_reg.otf');
+}
+
+html, body {
+  font-family: 'Brandon';
+  scroll-behavior: smooth !important;
+}
+
+.App {
+  text-align: center;
+}
+a.navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar{
+  justify-content: inherit
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+
+.lastStep div div h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  border: 7px solid white;
+  border-radius: 50%;
+  padding: 49px 26px;
+  line-height: 1.2;
+  display: inline-block;
+}
+
+.firstStep, .lastStep div a {
+  color: black;
+  font-weight: 900;
+  font-size: 15px;
+  outline: none !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.lastStep div div h3 {
+  color: white;
+  font-weight: 900;
+  font-size: 36px;
+  border-bottom: 0.04em solid white;
+  padding-bottom: 35px;
+}
+
+.lastStep div div p {
+  color: white;
+  font-size: 14px;
+  margin-top: 14px;
+  line-height: 2;
+}
+
+.lastStep div div h4 {
+  color: white;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 2;
+}
+
+.brandInfo {
+  padding: 0;
+  border-radius: 27px;
+  border-left: none;
+  color: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.img-fluid {
+  /* max-width: 100vh; */
+}
+
+.brandInfo img {
+  z-index: 99;
+  width: auto;
+}
+
+.brandInfo p {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 25px;
+  border-left: 0px;
+  padding-right: 13px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  padding-left: 54px;
+  margin-left: -28px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+form input, select {
+  border: none;
+  background-color: #F2F2F2;
+  margin-bottom: 0px;
+  padding: 6px;
+  border: 1px solid #F2F2F2;
+  border-radius: 5px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  color: #999999;
+}
+
+form input::-webkit-input-placeholder {
+  color: #999999;
+}
+
+form input:-ms-input-placeholder {
+  color: #999999;
+}
+
+form input::-ms-input-placeholder {
+  color: #999999;
+}
+
+form input::placeholder {
+  color: #999999;
+}
+
+form h5 {
+  color: black;
+  font-weight: bold;
+  ;
+  font-size: 15px;
+  margin-top: 22px;
+}
+form h5 u,a.navbar-brand.selected {
+  color:#339ABB !important;
+}
+
+form div label {
+  color: black;
+  font-size: 15px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+button.firstMove, a.firstMove {
+  background-color: #339ABB !important;
+  color: white !important;
+  width:250px;
+}
+
+form a {
+  /* background-color: #339ABB; */
+  color: white;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  font-weight: 900 !important;
+  font-size: 16px !important;
+  text-transform: uppercase;
+}
+
+form h1.students {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ffa418;
+  color: white;
+  font-weight: bolder;
+  font-size: 26px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+div label {
+  font-size: 15px !important;
+  line-height: 1.8;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  margin-right: 10px;
+}
+
+.firstStep.header {
+  height: 460px;
+}
+
+.firstStep.header div div {
+  margin-top: 70px;
+}
+
+#rate {
+  border-top: 1px solid #E0E0E0;
+  padding-top: 30px;
+  margin-top: 30px !important;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+a.lastMove {
+  background-color: #41bd87;
+}
+
+a.back, button.back {
+  background-color: transparent;
+  color: black;
+  border-color: black;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  width: 300px;
+}
+
+div#progressBar {
+  background-color: #333333;
+  height: 60px;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+
+
+
+input.remark {
+  height: 33px;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input.remark::-webkit-input-placeholder {
+  color: black;
+}
+
+input.remark:-ms-input-placeholder {
+  color: black;
+}
+
+input.remark::-ms-input-placeholder {
+  color: black;
+}
+
+input.remark::placeholder {
+  color: black;
+}
+small{
+  color: grey;
+}
+.row.m-0.col-sm-8.col-12.mx-auto {
+  padding-top: 6px;
+}
+
+
+/*Starting Custom RadioBtn Styling*/
+
+input[type="checkbox"], input[type="radio"] {
+  opacity: 0;
+  cursor: pointer;
+}
+
+span.checkmark, span.secondCheckMark, span.thirdCheckMark {
+  position: absolute;
+  left: 0px;
+  ;
+  right: 0px;
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  border-radius: 50%;
+  top: 3px;
+}
+
+input[type="checkbox"]+span.thirdCheckMark {
+  border-radius: 4%;
+}
+
+span.checkmark {
+  border: 1px solid #ffa417;
+}
+
+span.secondCheckMark {
+  border: 1px solid #41BD87;
+}
+
+span.thirdCheckMark {
+  border: 1px solid #339ABB;
+}
+
+label input:checked~.thirdCheckMark {
+  background-color: #339ABB;
+}
+
+label input:checked~.secondCheckMark {
+  background-color: #41BD87;
+}
+
+label input:checked~.checkmark {
+  background-color: #ffa417;
+}
+
+label[class*="value_"] .checkmark, label[class*="value_"] .secondCheckMark, label[class*="value_"] .thirdCheckMark {
+  left: 14%;
+}
+
+#rate div label span.secondCheckMark, #rate div label span.checkmark {
+  margin: auto;
+  left: 0px;
+  top: 0px;
+  bottom: 20px;
+}
+
+/* Ending CustomBtn Styling */
+
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper>div {
+  position: absolute;
+}
+form input[disabled]{
+    background-color:#80808045;
+    cursor: not-allowed;
+}
+@media screen and (max-width:1093px) and (min-width:768px) {
+  .firstStep.header div div {
+    margin-top: 0px;
+  }
+  .firstStep.header div div img {
+    height: 141px;
+    /* display:none; */
+  }
+}
+
+@media screen and (max-width:768px) {
+  #bonus_questions {
+    /* max-height: 200px; */
+    /* overflow: auto; */
+  }
+  label[class*=value_] .checkmark, label[class*=value_] .secondCheckMark, label[class*=value_] .thirdCheckMark {
+    left: 1%;
+  }
+  .firstStep.header div div {
+    margin-top: 5px;
+  }
+  div#sitemap {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  label.col[class^="col value_"] {
+    text-align: center;
+    display: inline-block;
+  }
+  label.col[class^="col value_"]::after {
+    color: #828282;
+    font-size: 9px;
+    line-height: 2;
+    display: block
+  }
+  label.col[class*='_1']::before {
+    content: '1';
+  }
+  label.col[class*='_2']::before {
+    content: '2';
+  }
+  label.col[class*='_3']::before {
+    content: '3';
+  }
+  label.col[class*='_4']::before {
+    content: '4';
+  }
+  label.col[class*='_5']::before {
+    content: '5';
+  }
+  label.col[class*='_6']::before {
+    content: '6';
+  }
+  label.col[class^="col value_"] {
+    text-align: center;
+    display: inline-block;
+    padding: 0px;
+  }
+  label.col[class^="col value_"]::before {
+    color: black;
+    font-size: 12px;
+    line-height: 2;
+    display: block;
+    font-weight: 900;
+  }
+  input[type="checkbox"], input[type="radio"] {
+    margin-right: 4px;
+  }
+  div label {
+    font-size: 0.82em !important;
+  }
+  .lastStep div div h2 {
+    font-size: 30px;
+    font-weight: 900;
+    border: 7px solid white;
+    border-radius: 50%;
+    padding: 28px 16px;
+  }
+  .lastStep div div h3 {
+    padding-bottom: 2px;
+    font-size: 30px
+  }
+  .lastStep div div p {
+    margin-top: 1px;
+    margin-bottom: 1px
+  }
+}
