@@ -88,5 +88,27 @@ const SecondQuestion = ()=>{
   )
 }
 
+const Documentation = ()=>{
+  return (
+    <div  className="mx-auto col-12 col-md-6 col-xl-4 col-sm-10 ">
+    <h5>Demonstration:</h5>
+    <ul className="pl-2 mt-2">
+      <li> Used techniques: Front-end(ReactJS,HTML,CSS,JQueyr)</li>
+      <li> Used techniques: Back-end(PHP- Codeigniter Framework)</li>
+      
+      <li>In first Question i followed MVC Design pattern,<br/> After   inserting  and submitting player count,  
+        the front end code will send a request to the server as a POST Request, and the backend code will handle this request and will 
+        check the player number (should be positive and more than zero and numeric).<br/>
+        Incase the number doesn't match so the system will send 
+        alert to the client.<br/>
+        Incase the input is correct the backend code will distribute the playing card on the player count, and will send the result to the frontend 
+        in a response.
+        <br/>
+        The frontend code(ReactJs) will render this response on the screen.
+      </li>
+</ul>
+    </div>
+  )
+}
 
-export {FirstQuestion,SecondQuestion};
+export {FirstQuestion,SecondQuestion,Documentation};

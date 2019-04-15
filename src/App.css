@@ -322,6 +322,10 @@ label[class*="value_"] .checkmark, label[class*="value_"] .secondCheckMark, labe
   bottom: 20px;
 }
 
+.navbar-toggler{
+  outline: none !important;
+}
+
 /* Ending CustomBtn Styling */
 
 .switch-wrapper {
@@ -346,6 +350,12 @@ form input[disabled]{
 }
 
 @media screen and (max-width:768px) {
+  ul.navbar-nav li{
+    padding:5px;
+}
+ul.navbar-nav li:not(:last-child){
+    border-bottom:0.0939em solid #339ABB ;
+}
   #bonus_questions {
     /* max-height: 200px; */
     /* overflow: auto; */
