@@ -54,11 +54,7 @@ class Api extends REST_Controller {
                 $this->response(['msg'=>"Submitted value should be bigger than 1."],500);
             }
             $cards = $this->shuffle_cards();
-            $chunk = count($cards)/$count; // Defining how many card will be distributed to each player
-            if (count($cards)< $count ){
-                $chunk = 1;
-            }
-$result=[];
+           $result=[];
             while(count($cards)>0){
                 for($i=0;$i<$count;$i++){
                     if(!isset($result[$i])) $result[$i]=[];

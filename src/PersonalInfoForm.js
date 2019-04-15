@@ -752,7 +752,7 @@ class FirstStep extends React.Component {
         </button>
         <div className="mx-auto mt-4 bonus">
               Do you like my resume? .... YES<br/>You can download it 
-                <button  type="button" onClick={this.download} className="btn firstMove text-uppercase bold mt-2" >
+                <button  type="button" onClick={this.download} className="btn firstMove text-uppercase d-block bold mt-2" >
                   Download 
                 </button>
               </div>

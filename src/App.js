@@ -32,13 +32,15 @@ class App extends React.Component {
             <NavLink activeClassName="selected" className="navbar-brand " to="/test/first_question">First Question</NavLink>
             <NavLink activeClassName="selected" className="navbar-brand " to="/test/second_question">Second Question</NavLink>
         </nav>
+      <Router basename={process.cwd()}>
         <Switch >
-              <Route  path="/test/first_question" render={(props)=><FirstQuestion classes=""  {...props}  />}/>
-              <Route  path="/test/second_question" render={(props)=><SecondQuestion classes=""  {...props}/>}/>
-              <Route  path="/test/whoami" render={(props)=><FirstStep classes=""  {...props}  user={this.state.user}/>}/>
-              <Route  path="/" render={(props)=><FirstStep classes=""  {...props}  user={this.state.user}/>}/>
+              <Route path={`${process.env.PUBLIC_URL}/first_question`}   render={(props)=><FirstQuestion classes=""  {...props}  />}/>
+              <Route path={`${process.env.PUBLIC_URL}/second_question`}  render={(props)=><SecondQuestion classes=""  {...props}/>}/>
+              <Route path={`${process.env.PUBLIC_URL}/whoami`}  render={(props)=><FirstStep classes=""  {...props}  user={this.state.user}/>}/>
+              <Route path={`${process.env.PUBLIC_URL}/`} render={(props)=><FirstStep classes=""  {...props}  user={this.state.user}/>}/>
 
         </Switch>
+        </Router>
       </div>
     );
   }
