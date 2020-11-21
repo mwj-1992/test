@@ -1,0 +1,2280 @@
+﻿[
+  {
+    "p": {
+      "start": {
+        "identity": 166826,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "virtual": 1,
+          "client_id": 1002282,
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8176,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000393,
+          "mt4_id": 1546886,
+          "regulator": "CY",
+          "currency": "USD",
+          "created_date": "2020-09-04T03:36:23.000Z",
+          "group": "AGT-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 166826,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "virtual": 1,
+              "client_id": 1002282,
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 178702,
+            "start": 166826,
+            "end": 8176,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8176,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000393,
+              "mt4_id": 1546886,
+              "regulator": "CY",
+              "currency": "USD",
+              "created_date": "2020-09-04T03:36:23.000Z",
+              "group": "AGT-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 53076,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000413,
+          "mt4_id": 1547228,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-07T04:18:19.468Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8176,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000393,
+          "mt4_id": 1546886,
+          "regulator": "CY",
+          "currency": "USD",
+          "created_date": "2020-09-04T03:36:23.000Z",
+          "group": "AGT-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 53076,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000413,
+              "mt4_id": 1547228,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-07T04:18:19.468Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 55616,
+            "start": 53076,
+            "end": 8176,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8176,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000393,
+              "mt4_id": 1546886,
+              "regulator": "CY",
+              "currency": "USD",
+              "created_date": "2020-09-04T03:36:23.000Z",
+              "group": "AGT-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 52534,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "leverage": "50",
+          "server": 2,
+          "account_type": "Variable",
+          "virtual": 0,
+          "client_id": 1000730,
+          "mt4_id": 839171,
+          "regulator": "VU",
+          "currency": "EUR",
+          "created_date": "2020-09-07 03:08:18",
+          "status": "active",
+          "group": "sub_fxpEURAPM01"
+        }
+      },
+      "end": {
+        "identity": 8176,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000393,
+          "mt4_id": 1546886,
+          "regulator": "CY",
+          "currency": "USD",
+          "created_date": "2020-09-04T03:36:23.000Z",
+          "group": "AGT-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 52534,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "leverage": "50",
+              "server": 2,
+              "account_type": "Variable",
+              "virtual": 0,
+              "client_id": 1000730,
+              "mt4_id": 839171,
+              "regulator": "VU",
+              "currency": "EUR",
+              "created_date": "2020-09-07 03:08:18",
+              "status": "active",
+              "group": "sub_fxpEURAPM01"
+            }
+          },
+          "relationship": {
+            "identity": 55581,
+            "start": 52534,
+            "end": 8176,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8176,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000393,
+              "mt4_id": 1546886,
+              "regulator": "CY",
+              "currency": "USD",
+              "created_date": "2020-09-04T03:36:23.000Z",
+              "group": "AGT-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 53013,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 60,
+          "leverage": "100",
+          "account_type": "demo",
+          "virtual": 0,
+          "client_id": 1000730,
+          "mt4_id": 501951828,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-07T03:03:18.551Z",
+          "group": "demoVariablePRM",
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8176,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000393,
+          "mt4_id": 1546886,
+          "regulator": "CY",
+          "currency": "USD",
+          "created_date": "2020-09-04T03:36:23.000Z",
+          "group": "AGT-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 53013,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 60,
+              "leverage": "100",
+              "account_type": "demo",
+              "virtual": 0,
+              "client_id": 1000730,
+              "mt4_id": 501951828,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-07T03:03:18.551Z",
+              "group": "demoVariablePRM",
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 55563,
+            "start": 53013,
+            "end": 8176,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8176,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000393,
+              "mt4_id": 1546886,
+              "regulator": "CY",
+              "currency": "USD",
+              "created_date": "2020-09-04T03:36:23.000Z",
+              "group": "AGT-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8212,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "virtual": 1,
+          "client_id": 1000678,
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8176,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000393,
+          "mt4_id": 1546886,
+          "regulator": "CY",
+          "currency": "USD",
+          "created_date": "2020-09-04T03:36:23.000Z",
+          "group": "AGT-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8212,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "virtual": 1,
+              "client_id": 1000678,
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 2438,
+            "start": 8212,
+            "end": 8176,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8176,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000393,
+              "mt4_id": 1546886,
+              "regulator": "CY",
+              "currency": "USD",
+              "created_date": "2020-09-04T03:36:23.000Z",
+              "group": "AGT-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8179,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000394,
+          "mt4_id": 1546890,
+          "regulator": "CY",
+          "currency": "USD",
+          "created_date": "2020-09-04T03:57:33.821Z",
+          "group": "AGT-USD",
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8176,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000393,
+          "mt4_id": 1546886,
+          "regulator": "CY",
+          "currency": "USD",
+          "created_date": "2020-09-04T03:36:23.000Z",
+          "group": "AGT-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8179,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000394,
+              "mt4_id": 1546890,
+              "regulator": "CY",
+              "currency": "USD",
+              "created_date": "2020-09-04T03:57:33.821Z",
+              "group": "AGT-USD",
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 2409,
+            "start": 8179,
+            "end": 8176,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8176,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000393,
+              "mt4_id": 1546886,
+              "regulator": "CY",
+              "currency": "USD",
+              "created_date": "2020-09-04T03:36:23.000Z",
+              "group": "AGT-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 169773,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Katarzyna Michalik",
+          "leverage": "400",
+          "server": 5,
+          "account_type": "Micro",
+          "virtual": 0,
+          "client_id": 1001695,
+          "mt4_id": 6001821,
+          "regulator": "ZA",
+          "currency": "USD",
+          "created_date": "2020-11-19 13:18:51",
+          "status": "active",
+          "group": "PA5varMicro"
+        }
+      },
+      "end": {
+        "identity": 8203,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000390,
+          "mt4_id": 1546532,
+          "regulator": "CY",
+          "currency": "USD",
+          "created_date": "2020-09-02T01:36:44.982Z",
+          "group": "AGT-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 169773,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Katarzyna Michalik",
+              "leverage": "400",
+              "server": 5,
+              "account_type": "Micro",
+              "virtual": 0,
+              "client_id": 1001695,
+              "mt4_id": 6001821,
+              "regulator": "ZA",
+              "currency": "USD",
+              "created_date": "2020-11-19 13:18:51",
+              "status": "active",
+              "group": "PA5varMicro"
+            }
+          },
+          "relationship": {
+            "identity": 181693,
+            "start": 169773,
+            "end": 8203,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8203,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000390,
+              "mt4_id": 1546532,
+              "regulator": "CY",
+              "currency": "USD",
+              "created_date": "2020-09-02T01:36:44.982Z",
+              "group": "AGT-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 110382,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "virtual": 1,
+          "client_id": 1001790,
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8203,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000390,
+          "mt4_id": 1546532,
+          "regulator": "CY",
+          "currency": "USD",
+          "created_date": "2020-09-02T01:36:44.982Z",
+          "group": "AGT-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 110382,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "virtual": 1,
+              "client_id": 1001790,
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 114917,
+            "start": 110382,
+            "end": 8203,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8203,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000390,
+              "mt4_id": 1546532,
+              "regulator": "CY",
+              "currency": "USD",
+              "created_date": "2020-09-02T01:36:44.982Z",
+              "group": "AGT-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 109647,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 5,
+          "leverage": 400,
+          "account_type": "Micro",
+          "virtual": 0,
+          "client_id": 1001695,
+          "mt4_id": 6001559,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-10-21 13:35:29",
+          "group": "PR5var10muMicro",
+          "status": "inactive"
+        }
+      },
+      "end": {
+        "identity": 8203,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000390,
+          "mt4_id": 1546532,
+          "regulator": "CY",
+          "currency": "USD",
+          "created_date": "2020-09-02T01:36:44.982Z",
+          "group": "AGT-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 109647,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 5,
+              "leverage": 400,
+              "account_type": "Micro",
+              "virtual": 0,
+              "client_id": 1001695,
+              "mt4_id": 6001559,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-10-21 13:35:29",
+              "group": "PR5var10muMicro",
+              "status": "inactive"
+            }
+          },
+          "relationship": {
+            "identity": 114662,
+            "start": 109647,
+            "end": 8203,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8203,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000390,
+              "mt4_id": 1546532,
+              "regulator": "CY",
+              "currency": "USD",
+              "created_date": "2020-09-02T01:36:44.982Z",
+              "group": "AGT-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 52511,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "virtual": 1,
+          "client_id": 1000707,
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8203,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000390,
+          "mt4_id": 1546532,
+          "regulator": "CY",
+          "currency": "USD",
+          "created_date": "2020-09-02T01:36:44.982Z",
+          "group": "AGT-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 52511,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "virtual": 1,
+              "client_id": 1000707,
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 55501,
+            "start": 52511,
+            "end": 8203,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8203,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000390,
+              "mt4_id": 1546532,
+              "regulator": "CY",
+              "currency": "USD",
+              "created_date": "2020-09-02T01:36:44.982Z",
+              "group": "AGT-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 110356,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000720,
+          "mt4_id": 1553804,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-10-22T15:05:55.132Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8206,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000391,
+          "mt4_id": 1546533,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-02T02:17:24.934Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 110356,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000720,
+              "mt4_id": 1553804,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-10-22T15:05:55.132Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 114895,
+            "start": 110356,
+            "end": 8206,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8206,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000391,
+              "mt4_id": 1546533,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-02T02:17:24.934Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 110370,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000724,
+          "mt4_id": 1553809,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-10-22T15:19:07.330Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8240,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000388,
+          "mt4_id": 1546352,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-01T05:27:05.648Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 110370,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000724,
+              "mt4_id": 1553809,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-10-22T15:19:07.330Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 114908,
+            "start": 110370,
+            "end": 8240,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8240,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000388,
+              "mt4_id": 1546352,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-01T05:27:05.648Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 54270,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "leverage": "50",
+          "account_type": "Variable",
+          "virtual": 0,
+          "client_id": 1001092,
+          "mt4_id": 1549724,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-23T11:35:53.952Z",
+          "group": "PRMvar-1pc",
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8240,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000388,
+          "mt4_id": 1546352,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-01T05:27:05.648Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 54270,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "leverage": "50",
+              "account_type": "Variable",
+              "virtual": 0,
+              "client_id": 1001092,
+              "mt4_id": 1549724,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-23T11:35:53.952Z",
+              "group": "PRMvar-1pc",
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 56765,
+            "start": 54270,
+            "end": 8240,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8240,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000388,
+              "mt4_id": 1546352,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-01T05:27:05.648Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 54265,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "virtual": 1,
+          "client_id": 1001091,
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8240,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000388,
+          "mt4_id": 1546352,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-01T05:27:05.648Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 54265,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "virtual": 1,
+              "client_id": 1001091,
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 56740,
+            "start": 54265,
+            "end": 8240,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8240,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000388,
+              "mt4_id": 1546352,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-01T05:27:05.648Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8211,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "virtual": 1,
+          "client_id": 1000672,
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8240,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000388,
+          "mt4_id": 1546352,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-01T05:27:05.648Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8211,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "virtual": 1,
+              "client_id": 1000672,
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 2432,
+            "start": 8211,
+            "end": 8240,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8240,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000388,
+              "mt4_id": 1546352,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-01T05:27:05.648Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8299,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "leverage": "1",
+          "account_type": "Variable",
+          "virtual": 0,
+          "client_id": 1000659,
+          "mt4_id": 1548015,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-11 05:52:43",
+          "group": "PRMvar-1pc",
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8240,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000388,
+          "mt4_id": 1546352,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-01T05:27:05.648Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8299,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "leverage": "1",
+              "account_type": "Variable",
+              "virtual": 0,
+              "client_id": 1000659,
+              "mt4_id": 1548015,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-11 05:52:43",
+              "group": "PRMvar-1pc",
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 2508,
+            "start": 8299,
+            "end": 8240,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8240,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000388,
+              "mt4_id": 1546352,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-01T05:27:05.648Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8247,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "virtual": 1,
+          "client_id": 1000658,
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8240,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000388,
+          "mt4_id": 1546352,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-01T05:27:05.648Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8247,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "virtual": 1,
+              "client_id": 1000658,
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 2460,
+            "start": 8247,
+            "end": 8240,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8240,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000388,
+              "mt4_id": 1546352,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-01T05:27:05.648Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8243,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000389,
+          "mt4_id": 1546363,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-01T05:56:30.603Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8240,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000388,
+          "mt4_id": 1546352,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-01T05:27:05.648Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8243,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000389,
+              "mt4_id": 1546363,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-01T05:56:30.603Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 2456,
+            "start": 8243,
+            "end": 8240,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8240,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000388,
+              "mt4_id": 1546352,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-01T05:27:05.648Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8261,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000387,
+          "mt4_id": 1546335,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-01T03:15:28.466Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8258,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000386,
+          "mt4_id": 1546330,
+          "regulator": "CY",
+          "currency": "USD",
+          "created_date": "2020-09-01T02:55:15.844Z",
+          "group": "AGT-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8261,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000387,
+              "mt4_id": 1546335,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-01T03:15:28.466Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 2474,
+            "start": 8261,
+            "end": 8258,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8258,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000386,
+              "mt4_id": 1546330,
+              "regulator": "CY",
+              "currency": "USD",
+              "created_date": "2020-09-01T02:55:15.844Z",
+              "group": "AGT-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8240,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000388,
+          "mt4_id": 1546352,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-01T05:27:05.648Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8261,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "katarzyna.michalik@fxprimus.com",
+          "owner": "Kasia",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000387,
+          "mt4_id": 1546335,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-09-01T03:15:28.466Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8240,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000388,
+              "mt4_id": 1546352,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-01T05:27:05.648Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 2453,
+            "start": 8240,
+            "end": 8261,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8261,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "katarzyna.michalik@fxprimus.com",
+              "owner": "Kasia",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000387,
+              "mt4_id": 1546335,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-09-01T03:15:28.466Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8317,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "hoang.nga@fxprimus.com",
+          "owner": "Hoang Nga",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000383,
+          "mt4_id": 1546166,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-08-31T05:07:52.823Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8290,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "hoang.nga@fxprimus.com",
+          "owner": "Hoang Nga",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000380,
+          "mt4_id": 1546057,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-08-29T05:39:42.717Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8317,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "hoang.nga@fxprimus.com",
+              "owner": "Hoang Nga",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000383,
+              "mt4_id": 1546166,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-08-31T05:07:52.823Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 2529,
+            "start": 8317,
+            "end": 8290,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8290,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "hoang.nga@fxprimus.com",
+              "owner": "Hoang Nga",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000380,
+              "mt4_id": 1546057,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-08-29T05:39:42.717Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 53639,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "jess.hoang@fxprimus.com",
+          "owner": "Jess Hoang",
+          "virtual": 1,
+          "client_id": 1000924,
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8320,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "dang.le@fxprimus.com",
+          "owner": "Le Hai Dang",
+          "bd_owner_email": "dang.le@fxprimus.com",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "bd_owner": "Le Hai Dang",
+          "partner_id": 50000384,
+          "mt4_id": 1546179,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-08-31T06:34:50.441Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 53639,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "jess.hoang@fxprimus.com",
+              "owner": "Jess Hoang",
+              "virtual": 1,
+              "client_id": 1000924,
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 56170,
+            "start": 53639,
+            "end": 8320,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8320,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "dang.le@fxprimus.com",
+              "owner": "Le Hai Dang",
+              "bd_owner_email": "dang.le@fxprimus.com",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "bd_owner": "Le Hai Dang",
+              "partner_id": 50000384,
+              "mt4_id": 1546179,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-08-31T06:34:50.441Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 169356,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "dang.le@fxprimus.com",
+          "owner": "Le Hai Dang",
+          "virtual": 1,
+          "client_id": 1003003,
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8326,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "dang.le@fxprimus.com",
+          "owner": "Le Hai Dang",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000385,
+          "mt4_id": 1546242,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-08-31T10:39:02.046Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 169356,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "dang.le@fxprimus.com",
+              "owner": "Le Hai Dang",
+              "virtual": 1,
+              "client_id": 1003003,
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 181207,
+            "start": 169356,
+            "end": 8326,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8326,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "dang.le@fxprimus.com",
+              "owner": "Le Hai Dang",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000385,
+              "mt4_id": 1546242,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-08-31T10:39:02.046Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 169251,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "alex.tran@fxprimus.com",
+          "owner": "Tran Bao Tram",
+          "virtual": 1,
+          "client_id": 1002966,
+          "status": "active"
+        }
+      },
+      "end": {
+        "identity": 8326,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "dang.le@fxprimus.com",
+          "owner": "Le Hai Dang",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000385,
+          "mt4_id": 1546242,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-08-31T10:39:02.046Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 169251,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "alex.tran@fxprimus.com",
+              "owner": "Tran Bao Tram",
+              "virtual": 1,
+              "client_id": 1002966,
+              "status": "active"
+            }
+          },
+          "relationship": {
+            "identity": 181141,
+            "start": 169251,
+            "end": 8326,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8326,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "dang.le@fxprimus.com",
+              "owner": "Le Hai Dang",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000385,
+              "mt4_id": 1546242,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-08-31T10:39:02.046Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 166392,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "hien.vo@fxprimus.com",
+          "owner": "Vo Thi Thu Hien",
+          "leverage": "100",
+          "server": 2,
+          "account_type": "PAMM",
+          "virtual": 0,
+          "client_id": 1001158,
+          "mt4_id": 840443,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-11-09T10:19:35.147Z",
+          "status": "active",
+          "group": "SLAVEUSD-ECN"
+        }
+      },
+      "end": {
+        "identity": 8326,
+        "labels": [
+          "Mt4"
+        ],
+        "properties": {
+          "owner_email": "dang.le@fxprimus.com",
+          "owner": "Le Hai Dang",
+          "server": 1,
+          "account_type": "ib_rebate",
+          "virtual": 0,
+          "partner_id": 50000385,
+          "mt4_id": 1546242,
+          "regulator": "VU",
+          "currency": "USD",
+          "created_date": "2020-08-31T10:39:02.046Z",
+          "group": "AGT-PRM-USD",
+          "status": "active"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 166392,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "hien.vo@fxprimus.com",
+              "owner": "Vo Thi Thu Hien",
+              "leverage": "100",
+              "server": 2,
+              "account_type": "PAMM",
+              "virtual": 0,
+              "client_id": 1001158,
+              "mt4_id": 840443,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-11-09T10:19:35.147Z",
+              "status": "active",
+              "group": "SLAVEUSD-ECN"
+            }
+          },
+          "relationship": {
+            "identity": 179514,
+            "start": 166392,
+            "end": 8326,
+            "type": "HAS_REF",
+            "properties": {}
+          },
+          "end": {
+            "identity": 8326,
+            "labels": [
+              "Mt4"
+            ],
+            "properties": {
+              "owner_email": "dang.le@fxprimus.com",
+              "owner": "Le Hai Dang",
+              "server": 1,
+              "account_type": "ib_rebate",
+              "virtual": 0,
+              "partner_id": 50000385,
+              "mt4_id": 1546242,
+              "regulator": "VU",
+              "currency": "USD",
+              "created_date": "2020-08-31T10:39:02.046Z",
+              "group": "AGT-PRM-USD",
+              "status": "active"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  }
+]
